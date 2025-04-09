@@ -1,0 +1,1050 @@
+body{
+    margin: 0px;
+}
+
+
+.menu_div{
+    float: left;
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    /* border-radius: 20px; */
+    box-shadow: 0px 5px 15px rgba(0,0, 0,0.25);
+
+}
+
+.ptm_logo{
+    float: left;
+    height: 50%;
+    width: 12%;
+  margin-left: 97px;
+    margin-top: 21px;
+}
+
+.main_menu{
+    float: left;
+    height: 100%;
+    width: 57%;
+   
+}
+
+.menu_components{
+    float: left;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+  
+}
+.menu_components li{ 
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 14px;
+    margin-right: 2px;
+
+}
+.menu_components li a{ 
+    font-size:14px;
+    color: rgba(0,0,0,0.7);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.dropdown{
+    float: left;
+    height: 154px;
+    width: 160px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 5%;
+    margin:17px 0px 0px 0px;
+
+}
+.dropdown ul{
+    margin: 0px;
+    padding: 0px;
+}
+.dropdown li{
+    float: left;
+    width: 115px;
+    height: 30px;
+    position: relative;
+    margin:0px 0px 5px 0px;
+    padding: 0px;
+ 
+}
+.dropdown li a{
+
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-right: 30px;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+.dropdown li a:hover{
+    color: #00B9F1;
+    background-color: rgba(52, 253, 253, 0.1);
+}
+
+.menu_components li:hover .dropdown{
+    display: block;
+
+}
+.dropdown1{
+    height: 320px;
+    width: 190px;
+}
+.dropdown1 li{
+    width: 145px;
+}
+
+.dropdown2{
+    height: 117px;
+    width: 180px;
+   
+}
+.dropdown2 li{
+    width: 135px;
+}
+
+
+.dropdown3{
+    height: 237px;
+    width: 180px;
+   
+}
+.dropdown3 li{
+    width: 135px;
+}
+
+.dropdown4{
+    height: 350px;
+    width: 180px;
+   
+}
+.dropdown4 li{
+    width: 135px;
+}
+
+.sub_dropdown{
+    float: left;
+    height: 204px;
+    width: 166px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    /* border-radius: 5%; */
+    margin-left: 177px; 
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0,0, 0,0.25);
+
+}
+.sub_dropdown li{
+    width: 100%;
+margin-bottom: 23px;
+text-align: left;
+}
+
+.sub_dropdown li a{
+    margin-bottom: 5px;
+
+}
+
+
+/* 
+.menu_components li:hover .body_part{
+    display: block;
+
+} */
+
+.sub_dropdown1{
+    height: 180px;
+
+}
+.sub_dropdown1 li{
+    margin-bottom: 13px;  
+}
+
+.sub_dropdown2{
+    height: 130px;
+}
+.sub_dropdown2 li{
+    margin-bottom: 13px;  
+}
+.sub_dropdown3{
+    height: 273px;
+    width: 190px;
+}
+.sub_dropdown3 li{
+    margin-bottom: 13px;  
+}
+
+.sub_dropdown4{
+    height: 168px;
+    width: 190px;
+}
+.sub_dropdown4 li{
+    margin-bottom: 13px;  
+}
+
+.sub_dropdown5{
+    height: 263px;
+    width: 200px;
+}
+
+.sub_dropdown6{
+    height: 203px;
+    width: 200px;
+}
+
+.sub_dropdown7{
+    height: 120px;
+    width: 170px;
+}
+.dropdown7 li{
+    width: 100%;
+}
+
+
+.dropdown li:hover .sub_dropdown{
+    display: block;
+
+}
+
+
+
+.menu_app_download{
+    float: left;
+    width: 10%;
+    height: 100%;
+}
+.menu_app_download p{
+    margin-top: 24px;
+    margin-left: 18px;
+    font-size:14px;
+    font-weight: bold;
+    color: rgb(23, 43, 117);
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+
+.menu_sign_in{
+    float: left;
+    height: 60%;
+    width: 7%;
+    background-color:  rgb(23, 43, 117);
+    margin-top: 12px;
+    margin-left: 19px;
+    border-radius: 30px;
+}
+.sign_in_logo{
+    float: left;
+    height: 90%;
+    width: 36%;
+    margin-top: 2px;
+    margin-left: 2px;
+    background-color:  rgb(0, 188, 241);
+    border-radius: 50%;
+   padding: 0px;
+
+}
+.sign_in_logo i{
+    color: white;
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.sign_in_option{
+    float: left;
+    width: 60%;
+    height: 70%;
+    margin-top: 8px;
+    font-size:14px;
+    font-weight:500;
+    color: white;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.dropdown:hover .body_part{
+  background-color: rgba(0,0, 0,0.25);
+}
+
+
+
+.travel_part{
+    width: 100%;
+    float: left;
+    height: 294px;
+    background-color: rgba(0, 188, 241,0.1);
+   margin: 0px;
+   padding: 0px;
+}
+
+.travel{
+    float: left;
+    width: 100%;
+    height: 260px;
+    /* background-color: red; */
+}
+.travel_options_and_paytm_travel{
+    float: left;
+    width: 100%;
+    height:70px;
+    /* background-color: rgb(129, 115, 115); */
+}
+.travel_options{
+    float: left;
+    width: 78%;
+    height: 100%;
+    /* background-color: rgb(43, 189, 199); */
+    margin-left: 65px;
+}
+
+.travel_options div{
+    float: left;
+    /* width: 10%; */
+    margin-top: 34px;
+    margin-left: 35px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     height: 30px;
+    color: rgb(23, 39, 94);
+     /* background-color: yellow; */
+}
+.travel_options div:hover{
+    border-bottom: 2px solid rgb(23, 39, 94);
+}
+
+.paytm_travel_logo{
+    width: 10%;
+    float: left;
+    height: 36px;
+    margin-top: 34px;
+    /* background-color: red; */
+}
+
+
+.travel_booking{
+    float: left;
+    height:190px;
+    width: 87%;
+    background-color: white;
+    margin-left:95px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 12px;
+}
+
+.travel_ways{
+    float: left;
+    width: 100%;
+    height: 38px;
+    /* background-color: red; */
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14, 13, 13,0.9);
+    /* margin-left: 13px; */
+    padding-top: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.travel_ways input{
+    margin-left: 20px;
+}
+
+
+
+.travel_location{
+    float: left;
+    height: 55px;
+    width: 100%;
+    border-bottom:1px solid rgba(153, 152, 152,0.7);
+
+    /* background-color: blue; */
+}
+.travel_from_to{
+    float: left;
+    height: 100%;
+    width:37%;
+    /* background-color: #00B9F1; */
+}
+
+.travel_body_syntax{
+    float: left;
+    width: 45%;
+    height: 100%;
+    
+    /* background-color: red; */
+}
+
+.travel_body_syntax p{
+    margin-left: 20px;
+    color: rgb(153, 152, 152);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 13px;
+
+}
+.travel_body_syntax h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: yellow; */
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.travel_revrese_symbol{
+    float: left;
+    width: 9%;
+    text-align: center;
+    height: 100%;
+    /* margin: 0px; */
+}
+
+.travel_revrese_symbol i{
+    margin-top: 23px;
+   color:rgb(0, 188, 241);
+}
+
+.travel_body_border p{
+    margin-left: 0px;
+    border-right: 1px solid rgba(153, 152, 152,0.7);
+}
+.travel_body_border h3{
+    margin-left: 0px;
+    padding-top: 2px;
+    margin-top: 0px;
+    border-right: 1px solid rgba(153, 152, 152,0.7);
+}
+
+.travel_date{
+    float: left;
+    height: 100%;
+    width: 14%;
+    /* background-color: red; */
+}
+
+.travel_no_of_passenger{
+    float: left;
+    height: 100%;
+    width: 17%;
+    /* background-color: yellow; */
+}
+
+
+
+
+
+
+
+
+
+
+
+.travel_return_date{
+    float: left;
+    height: 100%;
+    width: 15%;
+    margin-left: 7px;
+    /* background-color: red; */
+}
+
+.travel_return_date h3{
+    color: rgb(0, 188, 241);
+}
+
+.travel_search_flight_btn{
+    float: left;
+    height: 100%;
+    width: 14%;
+    /* background-color: red; */
+}
+.travel_search_flight_btn button{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color:rgb(0, 188, 241);
+    border: 0px solid;
+    /* margin-top: 0px; */
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Gill Sans", sans-serif;
+
+    font-size: 13px;
+    /* padding-bottom: 9px; */
+    /* margin-bottom: 20px; */
+    border-radius: 11px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.travel_offers{
+    float: left;
+    height: 69px;
+    width: 100%;
+    /* background-color: black; */
+
+}
+
+.special_fares{
+    float: left;
+    width: 14%;
+    height:100%;
+/* background-color: red; */
+margin-left: 20px;
+}
+.special_fares p{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Gill Sans", sans-serif;
+      margin-top: 5px;
+      margin-bottom: 0px;
+      font-size: 14px;
+}
+.special_fares1{
+    margin-bottom: 2px;
+    padding-top: 12px;
+
+    /* margin-top: 20px; */
+   color: rgba(153, 152, 152,0.9);
+}
+.extra_savings{
+    color: rgb(59, 163, 59);
+}
+
+.travel_offers_object_body{
+    float: left;
+    height: 65%;
+    width: 9%;
+    /* background-color: red; */
+    margin-left: 7px;
+    margin-top: 17px;
+
+}
+.travel_offers_object_body_button{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    border: 1px solid rgba(153, 152, 152,0.4);
+border-radius: 7px;
+padding-top: 6px;
+padding-left: 7px;
+background-color: white;
+}
+
+.travel_offers_object_body_upper{
+font-size: 13px;
+/* margin: 0px 0px 0px 0px; */
+padding: 0px;
+margin-bottom: 4px;
+margin-top: 0px;
+margin-left: 4px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.travel_offers_object_body_lower{
+font-size: 10px;
+margin-top: 0px;
+padding: 0px;
+color: rgb(143, 142, 142);
+margin-left: 4px;
+    font-family: "Gill Sans", sans-serif;
+
+
+}
+
+
+
+
+
+
+
+.whole_body{
+    float: left;
+    height: 2900px;
+    width: 100%;
+    background-color: rgba(0, 188, 241,0.02);
+    margin-top: 33px;
+}
+.recharge_and_bill_payments{
+    width: 92.5%;
+    height: 300px;
+    float: left;
+    /* background-color:; */
+    margin-top: 19px;
+    padding-left: 95px; 
+
+}
+.recharge_box{
+    float: left;
+    margin-left: 11px;
+    width: 42%;
+    height: 100%;
+    background-color: white;
+border-radius: 10px;
+padding-left: 24px;
+padding-right: 24px;
+/* padding-bottom: 20px; */
+    /* background-color: yellow; */
+}
+
+.recharge_box_head{
+float: left;
+width: 100%;
+height: 68%;
+/* background-color: blue; */
+}    
+.heading_part{
+    float: left;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+    margin-top: 21px;
+    font-size: 18px;
+    width: 100%;
+    height: 18px;
+    /* background-color: yellow; */
+}
+.heading_part h3{
+    margin: 0px 0px 0px 2px;
+}
+
+.recharge_box_main_body{
+float: left;
+width: 22%;
+height: 125px;
+/* background-color: red; */
+margin-top: 20px;
+text-align: center;
+margin-left: 6px;
+border-radius: 8px;
+}
+
+.recharge_box_main_body:hover{
+    box-shadow: 0px 5px 20px rgba(0,0, 0,0.35);
+}
+    
+
+.recharge_box_main_body img{
+    height: 43px;
+    width: 43px;
+    font-size: 43px;
+    margin-top: 14px;
+    color: rgb(23, 43, 117);
+}
+
+.recharge_box_main_body p{
+    margin-top: 7px;
+    font-size: 15.3px;
+    font-family: Inter,sans-serif;
+    font-weight: 500;
+   
+}
+
+
+.recharge_box_bottom{
+    float: left;
+    width: 100%;
+    height: 24%;
+    background-color:rgb(0, 188, 241);
+    color: white;
+    border-radius: 10px;
+
+}
+.cashback_offer{
+    float: left;
+    height: 100%;
+    width: 69%;
+    /* background-color: yellow; */
+  
+        /* display: inline; */
+}
+.Recharge_offer_icon{
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: rgb(23, 43, 117);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+    border-radius: 10px;
+    /* display: inline; */
+    /* float: left; */
+}
+.Recharge_offer_icon i{
+    margin-top: 8px;
+}
+/* .cashback_offer p{
+    /* margin: 0px; */
+    /* height: 100%; */
+    /* width: 50px; */
+    /* background-color: black; */
+    /* display: inline; */
+    
+
+    /* float: left; */
+/* } */ 
+
+.cashback_info{
+    float: left;
+    width: 260px;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* margin-top: 0px; */
+    /* background-color: red; */
+}
+.cashback_info p{
+    margin: 0px;
+    display: inline;
+    font-family: Inter,sans-serif;
+    
+}
+
+.payment_button{
+    float: left;
+    width: 30%;
+    height: 100%;
+    /* text-align: center; */
+}
+.payment_button button{
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: rgb(0, 188, 241);
+    padding: 9px;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.recharge_box_2{
+    background-color:rgb(2, 152, 194);
+}
+.recharge_box_2 button{
+    background-color:rgb(2, 152, 194);
+  margin-left: 34px;
+}
+
+
+
+
+.paytm_money{
+    float: left;
+    width: 83%;
+    margin-left: 8%;
+    background-image: url(background_paytm_money.avif);
+    background-position: 50%;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-color: white;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 14px;
+}
+.paytm_upi{
+    background-image: none;
+}
+
+.paytm_money_info{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+/* .paytm_money_info{
+    width: 52%;
+} */
+/* .paytm_QR_info{
+    width: 30%;
+} */
+
+.paytm_money_img{
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.paytm_money_img img{
+    height: 86%;
+    width:90%;
+    margin-top: 0px;
+}
+
+.paytm_money_info_logo{
+    float: left;
+    width: 130px;
+    height: 50px;
+    margin-top: 39px;
+    margin-left: 90px;
+}
+.paytm_money_info_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.paytm_QR_info_logo img{
+    width: 60%;
+}
+.paytm_upi_logo{
+     height: 20px;
+}
+
+
+.paytm_money_info_heading{
+    float: left;
+    width: 100%;
+    height: 170px;
+    font-family: Inter,sans-serif;
+    margin-left: 90px;
+  font-size: 21px;
+  font-weight: 600;
+
+}
+.paytm_QR_info_heading{
+    height: 112px;
+}
+
+.paytm_money_info_infos{
+    float: left;
+    width: 84%;
+    height: 90px;
+    font-family: Inter,sans-serif;
+    margin-left: 90px;
+  font-size: 18px;
+  margin-top: 9px;
+  /* background-color: red; */
+  font-weight: 500;
+}
+
+.paytm_money_info_button{
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 16px;
+}
+.paytm_upi_info_img{
+    margin-top: 34px;
+    height: 45px;
+    width: 100%;
+}
+
+.paytm_money_info_button button{
+    padding: 10px;
+    font-size: 17px;
+    font-family: Inter,sans-serif;
+    border: 0px solid;
+    font-weight: 600;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: rgb(23, 43, 117);
+}
+.paytm_upi_info_img img{
+height: 100%;
+width: 27%;
+margin-left: 3px;
+}
+
+
+
+
+
+
+.paytm_customer_support{
+    float: left;
+    height: 72px;
+    width: 83%;
+    margin-left: 8%;
+    margin-top: 20px;
+    background-color: rgb(23, 43, 117);
+    /* text-align: center; */
+    border-radius: 12px;
+}
+
+.paytm_customer_support_img{
+    float: left;
+    height: 75%;
+    width: 5%;
+    margin-top: 10px;
+    margin-left: 20px;
+    /* background-color: red; */
+}
+
+.paytm_customer_support_img img{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+.paytm_customer_support_info{
+    float: left;
+    height: 75%;
+    width: 65%;
+    margin-left: 13px;
+    /* background-color: red; */
+    /* background-color: red; */
+
+}
+.paytm_customer_support_info p{
+    margin-top: 30px;
+    font-weight: 550;
+    color: white;
+    font-size: 18px;
+    font-family: Inter,sans-serif;
+}
+
+.paytm_customer_support_button{
+    float: left;
+    width: 14%;
+    height: 50px;
+    margin-left: 139px;
+    margin-top: 19px;
+    /* background-color: yellow; */
+}
+
+.paytm_customer_support_button button{
+    padding: 10px;
+    font-size: 14px;
+    font-family: Inter,sans-serif;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: rgb(23, 43, 117);
+}
+
+.credit_card_and_insurance{
+    float: left;
+    width: 86%;
+    margin-left: 8%;
+    height: 750px;
+    margin-top: 40px;
+    /* background-color: red; */
+}
+.credit_card_and_insurance_box{
+    width: 49%;
+    float: left;
+    height: 100%;
+    background-image: url(background\ img\ of\ credit_card_and_insurance.avif);
+    background-position: 50%;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 7px;
+
+}
+
+.credit_card_and_insurance_box2{
+   background-image: none;
+   margin-left: 12px;
+
+}
+
+.credit_card_and_insurance_logo{
+    height: 50px;
+    width: 25%;
+    /* margin-top: 20px; */
+}
+.credit_card_and_insurance_logo img{
+    height: 100%;
+    width: 100%;
+    margin-top: 34px;
+    margin-left: 47px;
+}
+
+.credit_card_and_insurance_heading{
+    float: left;
+    height: 140px;
+    /* background-color: red; */
+    margin-left: 47px;
+    margin-top: 23px;
+}
+.credit_card_and_insurance_heading h1{
+    font-size: 43.8px;
+    font-family: Inter,sans-serif;
+
+}
+.credit_card_and_insurance_heading2{
+    height: 86px;
+}
+.credit_card_and_insurance_paragraph{
+    float: left;
+    width: 100%;
+    height: 53px;
+    margin-left: 47px;
+    margin-top: 9px;
+}
+.credit_card_and_insurance_paragraph p{
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Inter,sans-serif;
+}
+
+.credit_card_and_insurance_button{
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    /* background-color: red; */
+    }
+.credit_card_and_insurance_button button{
+width: 23%;
+height: 32px;
+border:rgb(23, 43, 117) solid 1px ;
+color: rgb(23, 43, 117);
+background-color: transparent;
+border-radius: 20px;
+font-weight: 600;
+margin-left: 47px;
+}    
+
+.credit_card_and_insurance_button2{
+    margin-top: 25px;
+}
+
+.credit_card_and_insurance_banks{
+    float: right;
+    width: 40%;
+    height: 32px;
+    margin-right: 150px;
+}
+.credit_card_and_insurance_banks img{
+    width: 100%;
+    height: 32px;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+
+.credit_card_and_insurance_img{
+    float: left;
+    height: 370px;
+    width: 80%;
+    margin-left: 47px;
+/* background-color: blanchedalmond; */
+}
+.credit_card_and_insurance_img img{
+    height: 100%;
+    width: 100%;
+}
